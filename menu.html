@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"  href="Images/icon.png">
+    <title>Menu - Anton's</title>
+
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 5px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .menu-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-family: "Butler Bold";
+        }
+
+        .menu-button:hover {
+            background-color: #555;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 30%; 
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="Images/restlogo.png" alt="Restaurant Logo"></a>
+        <h2>Explore Our Culinary Creations</h2>
+        <nav>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="image-container">
+            <img src="Images/menu1.png" alt="Menu Image 1">
+            <img src="Images/menu2.png" alt="Menu Image 2">
+            <img src="Images/menu3.png" alt="Menu Image 3">
+        </div>
+        
+        <h1>MENUS</h1>
+        <p>Our kitchen is rooted in an appreciation for exceptional homegrown ingredients, thoughtful-yet-simple preparations, and a passion for breathing new life into Old Indian recipes. Desserts borrow from treasured family recipes extending back four generations. In addition to the menus listed here, we offer a selection of daily specials.</p>
+        
+        <div class="button-container">
+            <a href="#appetizers" class="menu-button">Appetizers</a>
+            <a href="#main-courses" class="menu-button">Main-Courses</a>
+            <a href="#desserts" class="menu-button">Desserts</a>
+            <a href="#beverages" class="menu-button">Beverages</a>
+            <a href="brunch" class="menu-button">Brunch</a>
+        </div>
+
+        <section id="appetizers">
+            <h2>Appetizers</h2>
+            <div class="dish">
+                <img src="images/appetizer1.jpg" alt="Appetizer 1">
+                <h3>Caprese Salad</h3>
+                <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
+            </div>
+            <div class="dish">
+                <img src="images/appetizer2.jpg" alt="Appetizer 2">
+                <h3>Spinach Artichoke Dip</h3>
+                <p>Creamy spinach and artichoke dip served with tortilla chips.</p>
+            </div>
+        </section>
+
+        <section id="main-courses">
+            <h2>Main Courses</h2>
+            <div class="dish">
+                <img src="images/main-course1.jpg" alt="Main Course 1">
+                <h3>Grilled Chicken Alfredo</h3>
+                <p>Grilled chicken breast served over fettuccine with Alfredo sauce.</p>
+            </div>
+            <div class="dish">
+                <img src="images/main-course2.jpg" alt="Main Course 2">
+                <h3>Vegetarian Lasagna</h3>
+                <p>Layers of pasta, ricotta, and vegetables topped with marinara sauce.</p>
+            </div>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <div class="dish">
+                <img src="images/dessert1.jpg" alt="Dessert 1">
+                <h3>Chocolate Lava Cake</h3>
+                <p>Warm chocolate cake with a gooey, molten center.</p>
+            </div>
+            <div class="dish">
+                <img src="images/dessert2.jpg" alt="Dessert 2">
+                <h3>Classic Tiramisu</h3>
+                <p>Layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+            </div>
+        </section>
+
+        <section id="beverages">
+            <h2>Beverages</h2>
+            <div class="dish">
+                <img src="images/beverage1.jpg" alt="Beverage 1">
+                <h3>Fresh Fruit Smoothie</h3>
+                <p>Blended with a mix of fresh fruits and yogurt.</p>
+            </div>
+            <div class="dish">
+                <img src="images/beverage2.jpg" alt="Beverage 2">
+                <h3>Classic Mojito</h3>
+                <p>Refreshing mint and lime cocktail with a splash of soda.</p>
+            </div>
+        </section>
+
+        <section id="brunch">
+            <h2>Brunch</h2>
+            <div class="dish">
+                <img src="images/beverage1.jpg" alt="Beverage 1">
+                <h3>Fresh Fruit Smoothie</h3>
+                <p>Blended with a mix of fresh fruits and yogurt.</p>
+            </div>
+            <div class="dish">
+                <img src="images/beverage2.jpg" alt="Beverage 2">
+                <h3>Classic Mojito</h3>
+                <p>Refreshing mint and lime cocktail with a splash of soda.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anton's. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
